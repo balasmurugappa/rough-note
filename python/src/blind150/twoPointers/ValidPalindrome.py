@@ -1,4 +1,3 @@
-from curses.ascii import isalpha, isdigit
 
 from src.utils.logging_util import get_logger
 
