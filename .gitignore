@@ -1,0 +1,60 @@
+# Ignore for Java/Gradle project in java/ directory
+/java/.gradle/
+/java/build/
+/java/out/
+# Gradle Wrapper files
+/java/gradle-wrapper.jar
+/java/gradle-wrapper.properties
+/java/gradlew
+/java/gradlew.bat
+# IDE-specific files
+/java/.idea/
+/java/.project
+/java/.classpath
+/java/.settings/
+/java/*.iml
+# Logs and temporary files
+/java/logs/
+/java/*.log
+/java/tmp/
+/java/.DS_Store
+# Exclude generated files for Java
+/java/**/*.class
+/java/**/*.jar
+/java/**/*.war
+/java/**/*.ear
+
+# Ignore for Python project in python/ directory
+/python/__pycache__/
+/python/*.pyc
+/python/*.pyo
+/python/*.pyd
+/python/env/
+/python/venv/
+/python/.env/
+/python/.venv/
+/python/*.egg
+/python/*.egg-info/
+/python/dist/
+/python/build/
+/python/.mypy_cache/
+/python/.pytest_cache/
+/python/.tox/
+/python/.coverage
+/python/coverage.xml
+/python/.pylint.d/
+/python/.ipynb_checkpoints
+# Logs and temporary files
+/python/.DS_Store
+/python/*.log
+/python/.sqlite3
+/python/.pytest_cache/
+
+# General ignores for OS and editor-related files
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*.swo
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
