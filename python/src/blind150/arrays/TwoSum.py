@@ -4,7 +4,7 @@ from src.utils.logging_util import get_logger
 logger = get_logger(__name__)
 
 class TwoSum:
-    def compute(self, nums: List[int], target: int):
+    def compute(self, nums: List[int], target: int) -> List[int]:
         targetMap = {}
 
         for i, n in enumerate(nums):

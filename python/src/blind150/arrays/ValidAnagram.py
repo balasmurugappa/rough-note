@@ -1,4 +1,3 @@
-from typing import List
 from src.utils.logging_util import get_logger
 
 logger = get_logger(__name__)
